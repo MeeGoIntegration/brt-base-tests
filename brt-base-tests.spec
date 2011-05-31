@@ -9,7 +9,7 @@ License: 		BSD
 Name: 			%{name}
 Version: 		%{version}
 Release: 		%{release}
-Source0: 		%{name}_%{version}.tar.gz
+Source0: 		%{name}-%{version}.tar.gz
 Prefix: 		/usr/local
 Group: 			Development/Tools
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
