@@ -19,7 +19,7 @@ Prefix: %{_prefix}
 brt-base-tests package for MeeGo
 
 %prep
-%setup -q -n %{name}_%{version}
+%setup -q -n %{name}-%{version}
 
 echo %{_sbindir}
 
