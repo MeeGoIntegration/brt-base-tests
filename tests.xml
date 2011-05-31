@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testdefinition version="0.1">
+    <suite name="brt-base-tests">
+        <set name="basic-set">
+            <description>This set ensures really basic functionality</description>
+
+            <case name="test1" type="Functional" level="Component" timeout="60">
+                <step expected_result="0">/bin/true</step>
+            </case>
+
+            <environments>
+                <scratchbox>false</scratchbox>
+                <hardware>true</hardware>
+            </environments>
+        </set>
+    </suite>
+</testdefinition>
